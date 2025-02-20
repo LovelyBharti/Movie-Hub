@@ -8,7 +8,7 @@ const Movie = () => {
   const { movie, isLoading } = useGlobalContext();
   
   if (isLoading) {
-    return <div className="loading"></div>;
+    return <div className="loading">Wait...</div>;
   }
 
   return (
