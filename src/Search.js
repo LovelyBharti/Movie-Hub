@@ -22,7 +22,7 @@ const Search = () => {
 
   return (
     <section className="search-section">
-      <h2>Search Your Pasandida Movie🔍</h2>
+      <h2>Search Your Favourite Movie🔍</h2>
       <form action="#" onSubmit={handleSubmit}>
         <div>
           <input
